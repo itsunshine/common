@@ -1,26 +1,29 @@
 package com.boliao.sunshine.biz.model;
 
+import java.io.Serializable;
+
 /**
  * 
  * @author liaobo
  * 
  */
-public class Doc extends BaseModel {
+public class Doc extends DocAndEbookPare implements Serializable {
 
-	private Integer clickNumber; // 点击量
+	protected String updateTime; // 更新时间
 
-	@Override
-	public String toString() {
-		return "Question [clickNumber=" + clickNumber + ", author=" + author + ", content=" + content + ", createTime=" + createTime + ", id=" + id + ", source=" + source
-				+ ", title=" + title + ", typeId=" + typeId + ", updateTime=" + updateTime + "]";
+	/**
+	 * @return the updateTime
+	 */
+	public String getUpdateTime() {
+		return updateTime;
 	}
 
-	public Integer getClickNumber() {
-		return clickNumber;
-	}
-
-	public void setClickNumber(Integer clickNumber) {
-		this.clickNumber = clickNumber;
+	/**
+	 * @param updateTime
+	 *            the updateTime to set
+	 */
+	public void setUpdateTime(String updateTime) {
+		this.updateTime = updateTime;
 	}
 
 }

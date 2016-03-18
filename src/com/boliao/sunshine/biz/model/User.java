@@ -13,7 +13,7 @@ import java.util.Map;
  * 
  */
 public class User implements Serializable {
-	private long id;
+	private Long id;
 	private String userName;
 	private String email;
 	private final Map<String, String> extInfo = new HashMap<String, String>();
@@ -84,21 +84,6 @@ public class User implements Serializable {
 	}
 
 	/**
-	 * @return the id
-	 */
-	public long getId() {
-		return id;
-	}
-
-	/**
-	 * @param id
-	 *            the id to set
-	 */
-	public void setId(long id) {
-		this.id = id;
-	}
-
-	/**
 	 * @return the userName
 	 */
 	public String getUserName() {
@@ -148,6 +133,21 @@ public class User implements Serializable {
 	 */
 	public Map<String, String> getExtInfo() {
 		return extInfo;
+	}
+
+	/**
+	 * @return the id
+	 */
+	public Long getId() {
+		return id;
+	}
+
+	/**
+	 * @param id
+	 *            the id to set
+	 */
+	public void setId(Long id) {
+		this.id = id;
 	}
 
 	/*

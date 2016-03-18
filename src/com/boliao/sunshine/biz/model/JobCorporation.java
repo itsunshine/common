@@ -3,13 +3,15 @@
  */
 package com.boliao.sunshine.biz.model;
 
+import java.io.Serializable;
+
 /**
  * 公司类
  * 
  * @author Liaobo
  * 
  */
-public class JobCorporation {
+public class JobCorporation implements Serializable {
 	/** id */
 	private int id;
 

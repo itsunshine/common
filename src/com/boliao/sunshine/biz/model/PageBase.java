@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class PageBase<T> {
 
-	private int pageSize = 5;
+	private int pageSize = 8;
 	private int totalPage;
 	private int pageNo = 1;
 	private long totalCount;
@@ -49,7 +49,11 @@ public class PageBase<T> {
 	}
 
 	public void setPageNo(Integer pageNo) {
-		this.pageNo = pageNo;
+		if (pageNo <= 0) {
+			this.pageNo = 1;
+		} else {
+			this.pageNo = pageNo;
+		}
 	}
 
 	public List<T> getResults() {

@@ -32,10 +32,7 @@ public class FileUtils {
 			String dirStr = null;
 			if (pos > 0) {
 				dirStr = filePath.substring(0, pos);
-				File dir = new File(dirStr);
-				if (!dir.exists()) {
-					dir.mkdirs();
-				}
+				createDir(dirStr);
 			}
 			file.createNewFile();
 		}
@@ -52,8 +49,13 @@ public class FileUtils {
 	 */
 	public static boolean createDir(String filePath) throws IOException {
 		File file = new File(filePath);
-		if (!file.exists()) {
+
+		if (file.exists()) {
+			return true;
+		} else if (!file.exists() && file.getParentFile().exists()) {
 			file.mkdirs();
+		} else {
+			createDir(file.getParent());
 		}
 		return true;
 
@@ -62,11 +64,9 @@ public class FileUtils {
 	/**
 	 * 保存网页字节数组到本地文件 filePath 为要保存的文件的相对地址
 	 */
-	public static void saveToLocal(byte[] data, String filePath,
-			boolean appendflag) {
+	public static void saveToLocal(byte[] data, String filePath, boolean appendflag) {
 		try {
-			DataOutputStream out = new DataOutputStream(new FileOutputStream(
-					new File(filePath), appendflag));
+			DataOutputStream out = new DataOutputStream(new FileOutputStream(new File(filePath), appendflag));
 			for (int i = 0; i < data.length; i++)
 				out.write(data[i]);
 			out.flush();
