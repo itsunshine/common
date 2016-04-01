@@ -36,7 +36,7 @@
 	          target: compile              
 	         ================================= -->
 	<target name="compile" depends="clean" description="compile">  
-	        <javac srcdir="${src.dir}" destdir="${build.dir}" includeantruntime="true" encoding="utf-8">  
+	        <javac srcdir="${src.dir}" destdir="${build.dir}" includeantruntime="true" encoding="utf-8" source="1.6">  
 	            <classpath refid="project.lib" />  
 	        </javac>  
 	    </target>  
