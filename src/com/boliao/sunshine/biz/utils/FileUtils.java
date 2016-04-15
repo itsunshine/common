@@ -49,13 +49,16 @@ public class FileUtils {
 	 */
 	public static boolean createDir(String filePath) throws IOException {
 		File file = new File(filePath);
-
-		if (file.exists()) {
-			return true;
-		} else if (!file.exists() && file.getParentFile().exists()) {
-			file.mkdirs();
-		} else {
-			createDir(file.getParent());
+		boolean flag = true;
+		while (flag) {
+			if (file.exists()) {
+				return true;
+			} else if (!file.exists() && file.getParentFile().exists()) {
+				file.mkdirs();
+				return true;
+			} else {
+				createDir(file.getParent());
+			}
 		}
 		return true;
 
