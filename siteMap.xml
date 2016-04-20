@@ -1,9 +1,94 @@
-<?xml version="1.0" encoding="GBK"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <urlset>
     <url>
-        <loc>http://www.itsunshine.net</loc>
-        <changefreq>always</changefreq>
-        <priority>1.0</priority>
+        <loc>http://www.itsunshine.net/views/index.do?type=hr</loc>
+        <changefreq>dayly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2016-04-20</lastmod>
+    </url>
+    <url>
+        <loc>http://www.itsunshine.net/views/index.do?type=doc</loc>
+        <changefreq>dayly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2016-04-20</lastmod>
+    </url>
+    <url>
+        <loc>http://www.itsunshine.net/views/index.do?type=ebook</loc>
+        <changefreq>dayly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2016-04-20</lastmod>
+    </url>
+    <url>
+        <loc>http://www.itsunshine.net/views/index.do?type=tool</loc>
+        <changefreq>dayly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2016-04-20</lastmod>
+    </url>
+    <url>
+        <loc>http://www.itsunshine.net/views/index.do?type=personalInfoInput</loc>
+        <changefreq>dayly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2016-04-20</lastmod>
+    </url>
+    <url>
+        <loc>http://www.itsunshine.net/views/index.do?m=getContent&id=89099&type=hr</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
+        <lastmod>2016-04-16 00:00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.itsunshine.net/views/index.do?m=getContent&id=89100&type=hr</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
+        <lastmod>2016-04-16 00:00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.itsunshine.net/views/index.do?m=getContent&id=89101&type=hr</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
+        <lastmod>2016-04-16 00:00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.itsunshine.net/views/index.do?m=getContent&id=89102&type=hr</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
+        <lastmod>2016-04-16 00:00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.itsunshine.net/views/index.do?m=getContent&id=89103&type=hr</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
+        <lastmod>2016-04-16 00:00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.itsunshine.net/views/index.do?m=getContent&id=89104&type=hr</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
+        <lastmod>2016-04-16 00:00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.itsunshine.net/views/index.do?m=getContent&id=89105&type=hr</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
+        <lastmod>2016-04-16 00:00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.itsunshine.net/views/index.do?m=getContent&id=89106&type=hr</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
+        <lastmod>2016-04-16 00:00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.itsunshine.net/views/index.do?m=getContent&id=89107&type=hr</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
+        <lastmod>2016-04-16 00:00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.itsunshine.net/views/index.do?m=getContent&id=89108&type=hr</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
+        <lastmod>2016-04-16 00:00:00</lastmod>
     </url>
 </urlset>
