@@ -39,6 +39,9 @@ public class XMLUtils {
 	/** 在线电子书首页 */
 	private static final String EBOOK_ON_LINE = "http://www.itsunshine.net/views/index.do?type=ebook";
 
+	/** 招聘岗位分析 */
+	private static final String ANALYSIS_ON_LINE = "http://www.itsunshine.net/views/index.do?type=analysis";
+
 	/** 在线工具 */
 	private static final String TOOL_ON_LINE = "http://www.itsunshine.net/views/index.do?type=tool";
 
@@ -57,6 +60,7 @@ public class XMLUtils {
 		commonUrlSet.add(EBOOK_ON_LINE);
 		commonUrlSet.add(TOOL_ON_LINE);
 		commonUrlSet.add(PER_INFO_URL);
+		commonUrlSet.add(ANALYSIS_ON_LINE);
 	}
 
 	/**
